@@ -56,3 +56,6 @@ __使用GCD的方式__
 [Objective-C中单例模式的实现](http://cocoa.venj.me/blog/singleton-in-objc/)
 
 [部分iOS示例代码](https://github.com/venj/Cocoa-blog-code)
+
+> [简书 - iOS单例模式详解](https://www.jianshu.com/p/a54280d85c8b)
+> [CSDN博客 - iOS单例模式详解](https://blog.csdn.net/huangfei711/article/details/53214411)
