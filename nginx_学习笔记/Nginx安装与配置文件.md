@@ -2,6 +2,34 @@
 
 ## Nginx安装
 
+nginx运行命令
+
+```Bash
+# 查看nginx是否运行
+ps -ef | grep nginx
+
+# 重新载入nginx配置文件
+nginx -s reload
+
+# 停止nginx 快速关闭
+nginx -s stop
+
+# 重启nginx
+nginx -s reopen
+
+# 优雅的关闭 nginx
+nginx -s quit
+
+# 帮助
+nginx -? | -h
+
+# 使用备用配置文件而不是默认文件
+nginx -c <file>
+
+# 测试配置文件：nginx检查配置是否有正确的语法，然后尝试打开配置中引用的文件
+nginx -t
+```
+
 ## Nginx配置文件
 
 > 参考资料：
