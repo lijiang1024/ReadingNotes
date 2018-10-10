@@ -54,3 +54,17 @@ ps -ef | grep nginx
 
 telnet 58.48.109.84 3306
 ```
+
+## 查看CPU资源
+
+> [Centos 下查看服务器CPU的信息](https://blog.csdn.net/ghj1976/article/details/6158953)
+
+```Bash
+# 查看有几个逻辑CPU，以及CPU型号
+cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
+
+# 实际是有几个CPU
+cat /proc/cpuinfo | grep physical | uniq -c
+
+# 2  Intel(R) Xeon(R) CPU E7- 4870  @ 2.40GHz
+```
