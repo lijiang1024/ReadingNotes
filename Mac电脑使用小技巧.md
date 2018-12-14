@@ -19,5 +19,5 @@ Mac启用自带FTP服务
 sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist
 
 # 关闭 FTP Server
-sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist 
+sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist
 ```
