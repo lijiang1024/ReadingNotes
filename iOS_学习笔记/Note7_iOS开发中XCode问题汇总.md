@@ -24,3 +24,9 @@ Xcode6 provisioning profile 存储路径：~/Library/MobileDevice/Provisioning P
 
 fastlane sigh resign
 ```
+
+## 查看静态库的架构
+
+```Bash
+lipo -info libCommon.a
+```

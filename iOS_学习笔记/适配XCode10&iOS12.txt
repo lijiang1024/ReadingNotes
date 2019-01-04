@@ -1,0 +1,25 @@
+
+适配Xcode10与iOS12之libstdc++问题
+
+https://www.jianshu.com/p/ecced2f49e59
+
+1、真机编译
+
+真机编译
+
+将 libstdc++.6.0.9.tbd.zip 解压，放到目录
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/
+
+
+如果想在 XCode12 iOS12 模拟器中运行：
+
+
+1、将 libstdc++_sim.zip 解压，放到目录
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib/
+
+
+2、将 libstdc++.dylib_sim.zip 解压，放到目录
+
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/
