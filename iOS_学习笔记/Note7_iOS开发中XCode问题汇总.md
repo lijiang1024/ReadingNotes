@@ -30,3 +30,16 @@ fastlane sigh resign
 ```Bash
 lipo -info libCommon.a
 ```
+
+## 常用宏变量
+
+> [参考资料](http://www.cnblogs.com/ThankForYou/archive/2012/09/12/2681739.html)
+
+
+
+宏|说明
+|:-|:-|
+__func__|打印当前函数或方法，c字符串
+__LINE__|打印当前行号，整数
+__FILE__|打印当前文件路径，c字符串
+__PRETTY_FUNCTION__|打印当前函数或方法（在C++中会包含参数类型），c字符串
