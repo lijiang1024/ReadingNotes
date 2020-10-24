@@ -21,3 +21,5 @@ sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist
 # 关闭 FTP Server
 sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist
 ```
+
+在 Windows 系统中，文件路径最大长度为260个字符，嵌套层级过深可能导致不可预知的问题
